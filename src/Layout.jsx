@@ -2,7 +2,10 @@ const Layout = (props) => {
     console.log(props);
 
     return (
-        <div></div>
+        <div>
+            <h2>{props.title}</h2>
+            {props.children}
+        </div>
 
     )
 }

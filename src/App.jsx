@@ -3,6 +3,8 @@ import ItemListContainer from './ItemListContainer';
 import NavBar from './NavBar';
 import CicloComponentes from './CicloComponentes';
 import Layout from './Layout';
+import UseRefejemplo from './UseRefejemplo';
+import RefVideoejemplo from './RefVideoejemplo';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <h4>Subtítulo</h4>
         <p>Este es el contenido proyectado con children.</p>
       </Layout>
+      <UseRefejemplo />
+      <RefVideoejemplo />
     </>
   );
 }
