@@ -15,6 +15,7 @@ function App() {
       <Layout title="Mi Componente">
         <h4>Subtítulo</h4>
         <p>Este es el contenido proyectado con children.</p>
+        <p>Login Funcionando</p>
       </Layout>
       <UseRefejemplo />
       <RefVideoejemplo />
